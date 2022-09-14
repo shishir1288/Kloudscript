@@ -1,0 +1,1403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.8539823008849557" branch-rate="0.6829268292682927" lines-covered="386" lines-valid="452" branches-covered="56" branches-valid="82" complexity="141" version="0" timestamp="1662975949">
+  <sources>
+    <source>C:\Users\shish\</source>
+  </sources>
+  <packages>
+    <package name="Kloudscript.Quiz.Cache.Capability" line-rate="0.9512195121951219" branch-rate="0.9" complexity="15">
+      <classes>
+        <class name="Kloudscript.Quiz.Cache.Capability.Controllers.KeyValueController" filename="C:\Users\shish\source\repos\Kloudscript.Quiz\Apis\Kloudscript.Quiz.Cache.Capability\Controllers\KeyValueController.cs" line-rate="0.9473684210526315" branch-rate="0.9" complexity="12">
+          <methods>
+            <method name="Post" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="71" hits="3" branch="false" />
+                <line number="72" hits="3" branch="true" condition-coverage="100% (2/2)" />
+                <line number="73" hits="1" branch="false" />
+                <line number="75" hits="2" branch="false" />
+                <line number="76" hits="2" branch="false" />
+                <line number="77" hits="2" branch="false" />
+                <line number="78" hits="2" branch="false" />
+                <line number="79" hits="2" branch="false" />
+                <line number="81" hits="2" branch="false" />
+                <line number="82" hits="2" branch="false" />
+                <line number="83" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="9" branch="false" />
+                <line number="24" hits="9" branch="false" />
+                <line number="25" hits="9" branch="false" />
+                <line number="26" hits="9" branch="false" />
+              </lines>
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAsync" signature="()" line-rate="0.9090909090909091" branch-rate="0.875" complexity="8">
+              <lines>
+                <line number="34" hits="6" branch="false" />
+                <line number="35" hits="6" branch="true" condition-coverage="100% (4/4)" />
+                <line number="36" hits="2" branch="false" />
+                <line number="38" hits="4" branch="true" condition-coverage="100% (2/2)" />
+                <line number="39" hits="3" branch="false" />
+                <line number="40" hits="3" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="48" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="49" hits="0" branch="false" />
+                <line number="50" hits="0" branch="false" />
+                <line number="53" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+                <line number="55" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
+                <line number="58" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+                <line number="60" hits="1" branch="false" />
+                <line number="61" hits="1" branch="false" />
+                <line number="63" hits="1" branch="false" />
+                <line number="64" hits="6" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="1" branch="false" />
+            <line number="23" hits="9" branch="false" />
+            <line number="24" hits="9" branch="false" />
+            <line number="25" hits="9" branch="false" />
+            <line number="26" hits="9" branch="false" />
+            <line number="34" hits="6" branch="false" />
+            <line number="35" hits="6" branch="true" condition-coverage="100% (4/4)" />
+            <line number="36" hits="2" branch="false" />
+            <line number="38" hits="4" branch="true" condition-coverage="100% (2/2)" />
+            <line number="39" hits="3" branch="false" />
+            <line number="40" hits="3" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="48" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="49" hits="0" branch="false" />
+            <line number="50" hits="0" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
+            <line number="61" hits="1" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="64" hits="6" branch="false" />
+            <line number="71" hits="3" branch="false" />
+            <line number="72" hits="3" branch="true" condition-coverage="100% (2/2)" />
+            <line number="73" hits="1" branch="false" />
+            <line number="75" hits="2" branch="false" />
+            <line number="76" hits="2" branch="false" />
+            <line number="77" hits="2" branch="false" />
+            <line number="78" hits="2" branch="false" />
+            <line number="79" hits="2" branch="false" />
+            <line number="81" hits="2" branch="false" />
+            <line number="82" hits="2" branch="false" />
+            <line number="83" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="Kloudscript.Quiz.Cache.Capability.Models.KeyValue" filename="C:\Users\shish\source\repos\Kloudscript.Quiz\Apis\Kloudscript.Quiz.Cache.Capability\Models\KeyValue.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Key" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="26" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Value" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="18" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Expiration" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="22" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="26" branch="false" />
+            <line number="8" hits="18" branch="false" />
+            <line number="9" hits="22" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Kloudscript.Quiz.Cache.Capability.Test" line-rate="0.9852941176470589" branch-rate="0.5" complexity="11">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="C:\Users\shish\.nuget\packages\microsoft.net.test.sdk\17.1.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Kloudscript.Quiz.Cache.Capability.Test.KeyValueControllerTestData" filename="C:\Users\shish\source\repos\Kloudscript.Quiz\Tests\Kloudscript.Quiz.Cache.Capability.Test\KeyValueControllerTestData.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="GetCachedKeyValues" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="9" branch="false" />
+                <line number="10" hits="9" branch="false" />
+                <line number="11" hits="9" branch="false" />
+                <line number="12" hits="9" branch="false" />
+                <line number="13" hits="9" branch="false" />
+                <line number="14" hits="9" branch="false" />
+                <line number="15" hits="9" branch="false" />
+                <line number="16" hits="9" branch="false" />
+                <line number="17" hits="9" branch="false" />
+                <line number="18" hits="9" branch="false" />
+                <line number="19" hits="9" branch="false" />
+                <line number="20" hits="9" branch="false" />
+                <line number="21" hits="9" branch="false" />
+                <line number="22" hits="9" branch="false" />
+                <line number="23" hits="9" branch="false" />
+                <line number="24" hits="9" branch="false" />
+                <line number="25" hits="9" branch="false" />
+                <line number="26" hits="9" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="9" branch="false" />
+            <line number="10" hits="9" branch="false" />
+            <line number="11" hits="9" branch="false" />
+            <line number="12" hits="9" branch="false" />
+            <line number="13" hits="9" branch="false" />
+            <line number="14" hits="9" branch="false" />
+            <line number="15" hits="9" branch="false" />
+            <line number="16" hits="9" branch="false" />
+            <line number="17" hits="9" branch="false" />
+            <line number="18" hits="9" branch="false" />
+            <line number="19" hits="9" branch="false" />
+            <line number="20" hits="9" branch="false" />
+            <line number="21" hits="9" branch="false" />
+            <line number="22" hits="9" branch="false" />
+            <line number="23" hits="9" branch="false" />
+            <line number="24" hits="9" branch="false" />
+            <line number="25" hits="9" branch="false" />
+            <line number="26" hits="9" branch="false" />
+          </lines>
+        </class>
+        <class name="Kloudscript.Quiz.Cache.Capability.Test.KeyValueTests" filename="C:\Users\shish\source\repos\Kloudscript.Quiz\Tests\Kloudscript.Quiz.Cache.Capability.Test\UnitTestKeyValue.cs" line-rate="1" branch-rate="0.5" complexity="9">
+          <methods>
+            <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="9" branch="false" />
+                <line number="29" hits="9" branch="false" />
+                <line number="30" hits="9" branch="false" />
+                <line number="31" hits="9" branch="false" />
+                <line number="33" hits="9" branch="false" />
+              </lines>
+            </method>
+            <method name="KeyNotExists_Return_StatusCode_404" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="47" hits="3" branch="false" />
+                <line number="48" hits="3" branch="false" />
+                <line number="49" hits="3" branch="false" />
+                <line number="51" hits="3" branch="false" />
+                <line number="53" hits="3" branch="false" />
+                <line number="56" hits="3" branch="false" />
+                <line number="57" hits="3" branch="false" />
+                <line number="58" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="If_NoKeyHasBeenPassed_Return_StatusCode_400" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="68" hits="2" branch="false" />
+                <line number="69" hits="2" branch="false" />
+                <line number="71" hits="2" branch="false" />
+                <line number="73" hits="2" branch="false" />
+                <line number="76" hits="2" branch="false" />
+                <line number="77" hits="2" branch="false" />
+                <line number="78" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="FoundKey_Return_StatusCode_200" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="87" hits="1" branch="false" />
+                <line number="88" hits="1" branch="false" />
+                <line number="89" hits="1" branch="false" />
+                <line number="90" hits="1" branch="false" />
+                <line number="92" hits="1" branch="false" />
+                <line number="95" hits="1" branch="false" />
+                <line number="96" hits="1" branch="false" />
+                <line number="97" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="SettingValueByKey1_Return_StatusCode_201" signature="()" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="105" hits="1" branch="false" />
+                <line number="106" hits="1" branch="false" />
+                <line number="108" hits="1" branch="false" />
+                <line number="110" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="113" hits="1" branch="false" />
+                <line number="114" hits="1" branch="false" />
+                <line number="115" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="SettingValueByKey2_Return_StatusCode_201" signature="()" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="123" hits="1" branch="false" />
+                <line number="124" hits="1" branch="false" />
+                <line number="126" hits="1" branch="false" />
+                <line number="127" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="130" hits="1" branch="false" />
+                <line number="131" hits="1" branch="false" />
+                <line number="132" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="If_NoKeyValuePassed_Return_StatusCode_400" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="141" hits="1" branch="false" />
+                <line number="142" hits="1" branch="false" />
+                <line number="144" hits="1" branch="false" />
+                <line number="146" hits="1" branch="false" />
+                <line number="149" hits="1" branch="false" />
+                <line number="150" hits="1" branch="false" />
+                <line number="151" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="28" hits="9" branch="false" />
+            <line number="29" hits="9" branch="false" />
+            <line number="30" hits="9" branch="false" />
+            <line number="31" hits="9" branch="false" />
+            <line number="33" hits="9" branch="false" />
+            <line number="47" hits="3" branch="false" />
+            <line number="48" hits="3" branch="false" />
+            <line number="49" hits="3" branch="false" />
+            <line number="51" hits="3" branch="false" />
+            <line number="53" hits="3" branch="false" />
+            <line number="56" hits="3" branch="false" />
+            <line number="57" hits="3" branch="false" />
+            <line number="58" hits="3" branch="false" />
+            <line number="68" hits="2" branch="false" />
+            <line number="69" hits="2" branch="false" />
+            <line number="71" hits="2" branch="false" />
+            <line number="73" hits="2" branch="false" />
+            <line number="76" hits="2" branch="false" />
+            <line number="77" hits="2" branch="false" />
+            <line number="78" hits="2" branch="false" />
+            <line number="87" hits="1" branch="false" />
+            <line number="88" hits="1" branch="false" />
+            <line number="89" hits="1" branch="false" />
+            <line number="90" hits="1" branch="false" />
+            <line number="92" hits="1" branch="false" />
+            <line number="95" hits="1" branch="false" />
+            <line number="96" hits="1" branch="false" />
+            <line number="97" hits="1" branch="false" />
+            <line number="105" hits="1" branch="false" />
+            <line number="106" hits="1" branch="false" />
+            <line number="108" hits="1" branch="false" />
+            <line number="110" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="113" hits="1" branch="false" />
+            <line number="114" hits="1" branch="false" />
+            <line number="115" hits="1" branch="false" />
+            <line number="123" hits="1" branch="false" />
+            <line number="124" hits="1" branch="false" />
+            <line number="126" hits="1" branch="false" />
+            <line number="127" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="130" hits="1" branch="false" />
+            <line number="131" hits="1" branch="false" />
+            <line number="132" hits="1" branch="false" />
+            <line number="141" hits="1" branch="false" />
+            <line number="142" hits="1" branch="false" />
+            <line number="144" hits="1" branch="false" />
+            <line number="146" hits="1" branch="false" />
+            <line number="149" hits="1" branch="false" />
+            <line number="150" hits="1" branch="false" />
+            <line number="151" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Kloudscript.Quiz.PhoneNumber.Test" line-rate="0.875" branch-rate="1" complexity="3">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="C:\Users\shish\.nuget\packages\microsoft.net.test.sdk\17.1.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Kloudscript.Quiz.PhoneNumber.Test.PhoneNumberTest" filename="C:\Users\shish\source\repos\Kloudscript.Quiz\ConsoleApps\Kloudscript.Quiz.PhoneNumber.Test\UnitTestPhoneNumberTest.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="1" branch="false" />
+                <line number="10" hits="1" branch="false" />
+                <line number="11" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Sort_Unsorted_PhoneNumber" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="1" branch="false" />
+            <line number="10" hits="1" branch="false" />
+            <line number="11" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Kloudscript.Quiz.PhoneNumberSorting" line-rate="0.9722222222222222" branch-rate="0.875" complexity="8">
+      <classes>
+        <class name="Kloudscript.Quiz.PhoneNumberSorting.PhoneNumber" filename="C:\Users\shish\source\repos\Kloudscript.Quiz\ConsoleApps\Kloudscript.Quiz.PhoneNumberSorting\PhoneNumber.cs" line-rate="0.9722222222222222" branch-rate="0.875" complexity="8">
+          <methods>
+            <method name="SortPhoneNumbers" signature="()" line-rate="0.9615384615384616" branch-rate="0.8333333333333334" complexity="6">
+              <lines>
+                <line number="11" hits="1" branch="false" />
+                <line number="13" hits="1" branch="false" />
+                <line number="14" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="100224" branch="true" condition-coverage="100% (2/2)" />
+                <line number="19" hits="100223" branch="false" />
+                <line number="20" hits="100223" branch="false" />
+                <line number="21" hits="100223" branch="false" />
+                <line number="22" hits="100223" branch="false" />
+                <line number="23" hits="100223" branch="true" condition-coverage="100% (2/2)" />
+                <line number="24" hits="100222" branch="false" />
+                <line number="25" hits="100222" branch="false" />
+                <line number="26" hits="100222" branch="false" />
+                <line number="27" hits="100223" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="33" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="43" hits="0" branch="false" />
+                <line number="44" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ProduceSortedCSV" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="47" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="51" hits="200446" branch="true" condition-coverage="100% (2/2)" />
+                <line number="52" hits="100222" branch="false" />
+                <line number="53" hits="100222" branch="false" />
+                <line number="54" hits="100222" branch="false" />
+                <line number="55" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="1" branch="false" />
+            <line number="13" hits="1" branch="false" />
+            <line number="14" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="100224" branch="true" condition-coverage="100% (2/2)" />
+            <line number="19" hits="100223" branch="false" />
+            <line number="20" hits="100223" branch="false" />
+            <line number="21" hits="100223" branch="false" />
+            <line number="22" hits="100223" branch="false" />
+            <line number="23" hits="100223" branch="true" condition-coverage="100% (2/2)" />
+            <line number="24" hits="100222" branch="false" />
+            <line number="25" hits="100222" branch="false" />
+            <line number="26" hits="100222" branch="false" />
+            <line number="27" hits="100223" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="33" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="43" hits="0" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="51" hits="200446" branch="true" condition-coverage="100% (2/2)" />
+            <line number="52" hits="100222" branch="false" />
+            <line number="53" hits="100222" branch="false" />
+            <line number="54" hits="100222" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Kloudscript.Quiz.Url.Shortening" line-rate="0.7448979591836735" branch-rate="0.6785714285714286" complexity="45">
+      <classes>
+        <class name="Kloudscript.Quiz.Url.Shortening.Context.UrlShortenerContext" filename="C:\Users\shish\source\repos\Kloudscript.Quiz\Apis\Kloudscript.Quiz.Url.Shortening\Context\UrlShortenerContext.cs" line-rate="0.5714285714285714" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_ShortUrls" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="19" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="16" branch="false" />
+                <line number="10" hits="16" branch="false" />
+                <line number="12" hits="16" branch="false" />
+              </lines>
+            </method>
+            <method name="SaveChangesAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="16" branch="false" />
+            <line number="10" hits="16" branch="false" />
+            <line number="12" hits="16" branch="false" />
+            <line number="13" hits="19" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Kloudscript.Quiz.Url.Shortening.Controllers.URLShorteningController" filename="C:\Users\shish\source\repos\Kloudscript.Quiz\Apis\Kloudscript.Quiz.Url.Shortening\Controllers\URLShorteningController.cs" line-rate="0.9666666666666667" branch-rate="0.9285714285714286" complexity="15">
+          <methods>
+            <method name="GetForwardFullUrlAsync" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="80" hits="5" branch="false" />
+                <line number="81" hits="5" branch="true" condition-coverage="100% (2/2)" />
+                <line number="82" hits="2" branch="false" />
+                <line number="85" hits="3" branch="true" condition-coverage="100% (2/2)" />
+                <line number="86" hits="2" branch="false" />
+                <line number="88" hits="1" branch="false" />
+                <line number="89" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="16" branch="false" />
+                <line number="23" hits="16" branch="false" />
+                <line number="24" hits="16" branch="false" />
+                <line number="25" hits="16" branch="false" />
+              </lines>
+            </method>
+            <method name="CreateShortUrlAsync" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="36" hits="5" branch="false" />
+                <line number="37" hits="5" branch="true" condition-coverage="100% (2/2)" />
+                <line number="38" hits="2" branch="false" />
+                <line number="41" hits="3" branch="true" condition-coverage="100% (2/2)" />
+                <line number="42" hits="2" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name="GetResolvedUrlAsync" signature="()" line-rate="0.9166666666666666" branch-rate="0.8333333333333334" complexity="6">
+              <lines>
+                <line number="54" hits="6" branch="false" />
+                <line number="55" hits="6" branch="true" condition-coverage="100% (2/2)" />
+                <line number="56" hits="2" branch="false" />
+                <line number="59" hits="4" branch="true" condition-coverage="100% (2/2)" />
+                <line number="60" hits="2" branch="false" />
+                <line number="62" hits="2" branch="false" />
+                <line number="63" hits="2" branch="false" />
+                <line number="65" hits="2" branch="true" condition-coverage="50% (1/2)" />
+                <line number="66" hits="2" branch="false" />
+                <line number="68" hits="2" branch="false" />
+                <line number="72" hits="0" branch="false" />
+                <line number="73" hits="6" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="22" hits="16" branch="false" />
+            <line number="23" hits="16" branch="false" />
+            <line number="24" hits="16" branch="false" />
+            <line number="25" hits="16" branch="false" />
+            <line number="36" hits="5" branch="false" />
+            <line number="37" hits="5" branch="true" condition-coverage="100% (2/2)" />
+            <line number="38" hits="2" branch="false" />
+            <line number="41" hits="3" branch="true" condition-coverage="100% (2/2)" />
+            <line number="42" hits="2" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="5" branch="false" />
+            <line number="54" hits="6" branch="false" />
+            <line number="55" hits="6" branch="true" condition-coverage="100% (2/2)" />
+            <line number="56" hits="2" branch="false" />
+            <line number="59" hits="4" branch="true" condition-coverage="100% (2/2)" />
+            <line number="60" hits="2" branch="false" />
+            <line number="62" hits="2" branch="false" />
+            <line number="63" hits="2" branch="false" />
+            <line number="65" hits="2" branch="true" condition-coverage="50% (1/2)" />
+            <line number="66" hits="2" branch="false" />
+            <line number="68" hits="2" branch="false" />
+            <line number="72" hits="0" branch="false" />
+            <line number="73" hits="6" branch="false" />
+            <line number="80" hits="5" branch="false" />
+            <line number="81" hits="5" branch="true" condition-coverage="100% (2/2)" />
+            <line number="82" hits="2" branch="false" />
+            <line number="85" hits="3" branch="true" condition-coverage="100% (2/2)" />
+            <line number="86" hits="2" branch="false" />
+            <line number="88" hits="1" branch="false" />
+            <line number="89" hits="5" branch="false" />
+          </lines>
+        </class>
+        <class name="Kloudscript.Quiz.Url.Shortening.Models.ShortUrl" filename="C:\Users\shish\source\repos\Kloudscript.Quiz\Apis\Kloudscript.Quiz.Url.Shortening\Models\ShortUrl.cs" line-rate="0.8" branch-rate="1" complexity="5">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_OriginalUrl" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="20" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ShortCode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="16" branch="false" />
+              </lines>
+            </method>
+            <method name="get_TinyUrl" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="19" branch="false" />
+              </lines>
+            </method>
+            <method name="get_CreatedAt" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="16" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="0" branch="false" />
+            <line number="8" hits="20" branch="false" />
+            <line number="9" hits="16" branch="false" />
+            <line number="10" hits="19" branch="false" />
+            <line number="11" hits="16" branch="false" />
+          </lines>
+        </class>
+        <class name="Kloudscript.Quiz.Url.Shortening.Services.ShortUrlService" filename="C:\Users\shish\source\repos\Kloudscript.Quiz\Apis\Kloudscript.Quiz.Url.Shortening\Services\ShortUrlService.cs" line-rate="0.5348837209302325" branch-rate="0.3333333333333333" complexity="14">
+          <methods>
+            <method name="GenerateShortCode" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="84" hits="0" branch="false" />
+                <line number="85" hits="0" branch="false" />
+                <line number="86" hits="0" branch="false" />
+                <line number="87" hits="0" branch="false" />
+                <line number="88" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="16" branch="false" />
+                <line number="18" hits="16" branch="false" />
+                <line number="19" hits="16" branch="false" />
+                <line number="20" hits="16" branch="false" />
+                <line number="21" hits="16" branch="false" />
+                <line number="22" hits="16" branch="false" />
+              </lines>
+            </method>
+            <method name="GetResolveUrl" signature="()" line-rate="0.9166666666666666" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="57" hits="2" branch="false" />
+                <line number="60" hits="2" branch="false" />
+                <line number="61" hits="2" branch="false" />
+                <line number="64" hits="2" branch="true" condition-coverage="50% (1/2)" />
+                <line number="65" hits="2" branch="false" />
+                <line number="67" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="68" hits="2" branch="false" />
+                <line number="69" hits="2" branch="false" />
+                <line number="70" hits="2" branch="false" />
+                <line number="71" hits="2" branch="false" />
+                <line number="73" hits="0" branch="false" />
+                <line number="74" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="ShortenUrl" signature="()" line-rate="0.3" branch-rate="0.125" complexity="8">
+              <lines>
+                <line number="25" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="32" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="33" hits="0" branch="false" />
+                <line number="36" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="37" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+                <line number="40" hits="0" branch="true" condition-coverage="0% (0/4)" />
+                <line number="41" hits="0" branch="false" />
+                <line number="42" hits="0" branch="false" />
+                <line number="43" hits="0" branch="false" />
+                <line number="44" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+                <line number="46" hits="0" branch="false" />
+                <line number="49" hits="0" branch="false" />
+                <line number="50" hits="0" branch="false" />
+                <line number="51" hits="0" branch="false" />
+                <line number="53" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="16" branch="false" />
+            <line number="18" hits="16" branch="false" />
+            <line number="19" hits="16" branch="false" />
+            <line number="20" hits="16" branch="false" />
+            <line number="21" hits="16" branch="false" />
+            <line number="22" hits="16" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="32" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="33" hits="0" branch="false" />
+            <line number="36" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="37" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+            <line number="40" hits="0" branch="true" condition-coverage="0% (0/4)" />
+            <line number="41" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
+            <line number="43" hits="0" branch="false" />
+            <line number="44" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="46" hits="0" branch="false" />
+            <line number="49" hits="0" branch="false" />
+            <line number="50" hits="0" branch="false" />
+            <line number="51" hits="0" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="57" hits="2" branch="false" />
+            <line number="60" hits="2" branch="false" />
+            <line number="61" hits="2" branch="false" />
+            <line number="64" hits="2" branch="true" condition-coverage="50% (1/2)" />
+            <line number="65" hits="2" branch="false" />
+            <line number="67" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="68" hits="2" branch="false" />
+            <line number="69" hits="2" branch="false" />
+            <line number="70" hits="2" branch="false" />
+            <line number="71" hits="2" branch="false" />
+            <line number="73" hits="0" branch="false" />
+            <line number="74" hits="2" branch="false" />
+            <line number="84" hits="0" branch="false" />
+            <line number="85" hits="0" branch="false" />
+            <line number="86" hits="0" branch="false" />
+            <line number="87" hits="0" branch="false" />
+            <line number="88" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Kloudscript.Quiz.Url.Shortening.Utilities.ApplicationSettings" filename="C:\Users\shish\source\repos\Kloudscript.Quiz\Apis\Kloudscript.Quiz.Url.Shortening\Utilities\ApplicationSettings.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="get_ConnectionStrings" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="17" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ServiceUrl" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="33" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ShortCodeLength" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_IsShortCodeAvailable" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_IsOrignialUrlSetToNull" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="4" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="17" branch="false" />
+            <line number="6" hits="33" branch="false" />
+            <line number="7" hits="1" branch="false" />
+            <line number="8" hits="1" branch="false" />
+            <line number="9" hits="4" branch="false" />
+          </lines>
+        </class>
+        <class name="Kloudscript.Quiz.Url.Shortening.Utilities.Connectionstrings" filename="C:\Users\shish\source\repos\Kloudscript.Quiz\Apis\Kloudscript.Quiz.Url.Shortening\Utilities\ApplicationSettings.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_DefaultConnection" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="17" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="17" branch="false" />
+          </lines>
+        </class>
+        <class name="Kloudscript.Quiz.Url.Shortening.Utilities.Helper" filename="C:\Users\shish\source\repos\Kloudscript.Quiz\Apis\Kloudscript.Quiz.Url.Shortening\Utilities\Helper.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="IsUrlValid" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="13" hits="10" branch="false" />
+                <line number="15" hits="10" branch="true" condition-coverage="100% (2/2)" />
+                <line number="16" hits="2" branch="false" />
+                <line number="18" hits="8" branch="false" />
+                <line number="19" hits="8" branch="false" />
+                <line number="20" hits="8" branch="false" />
+                <line number="21" hits="10" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="10" branch="false" />
+            <line number="15" hits="10" branch="true" condition-coverage="100% (2/2)" />
+            <line number="16" hits="2" branch="false" />
+            <line number="18" hits="8" branch="false" />
+            <line number="19" hits="8" branch="false" />
+            <line number="20" hits="8" branch="false" />
+            <line number="21" hits="10" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Kloudscript.Quiz.Url.Shortening.Test" line-rate="0.9705882352941176" branch-rate="0.6" complexity="21">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="C:\Users\shish\.nuget\packages\microsoft.net.test.sdk\17.1.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Kloudscript.Quiz.Url.Shortening.Test.URLShorteningControllerTestData" filename="C:\Users\shish\source\repos\Kloudscript.Quiz\Tests\Kloudscript.Quiz.Url.Shortening.Test\URLShorteningControllerTestData.cs" line-rate="1" branch-rate="0.5" complexity="5">
+          <methods>
+            <method name="GetMockShortUrlData" signature="()" line-rate="1" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="19" hits="16" branch="false" />
+                <line number="20" hits="16" branch="true" condition-coverage="50% (2/4)" />
+                <line number="21" hits="16" branch="false" />
+                <line number="22" hits="16" branch="false" />
+                <line number="23" hits="16" branch="false" />
+                <line number="24" hits="16" branch="false" />
+                <line number="25" hits="16" branch="false" />
+                <line number="26" hits="16" branch="false" />
+                <line number="28" hits="16" branch="false" />
+                <line number="29" hits="16" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="16" branch="false" />
+                <line number="12" hits="16" branch="false" />
+                <line number="13" hits="16" branch="false" />
+                <line number="14" hits="16" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="16" branch="false" />
+            <line number="12" hits="16" branch="false" />
+            <line number="13" hits="16" branch="false" />
+            <line number="14" hits="16" branch="false" />
+            <line number="19" hits="16" branch="false" />
+            <line number="20" hits="16" branch="true" condition-coverage="50% (2/4)" />
+            <line number="21" hits="16" branch="false" />
+            <line number="22" hits="16" branch="false" />
+            <line number="23" hits="16" branch="false" />
+            <line number="24" hits="16" branch="false" />
+            <line number="25" hits="16" branch="false" />
+            <line number="26" hits="16" branch="false" />
+            <line number="28" hits="16" branch="false" />
+            <line number="29" hits="16" branch="false" />
+          </lines>
+        </class>
+        <class name="Kloudscript.Quiz.Url.Shortening.Test.URLShorteningTest" filename="C:\Users\shish\source\repos\Kloudscript.Quiz\Tests\Kloudscript.Quiz.Url.Shortening.Test\UnitTestURLShortening.cs" line-rate="0.9770114942528736" branch-rate="0.6666666666666666" complexity="15">
+          <methods>
+            <method name="Setup" signature="()" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="37" hits="16" branch="false" />
+                <line number="38" hits="16" branch="false" />
+                <line number="39" hits="16" branch="true" condition-coverage="50% (1/2)" />
+                <line number="40" hits="16" branch="false" />
+                <line number="41" hits="16" branch="false" />
+                <line number="43" hits="16" branch="false" />
+                <line number="44" hits="16" branch="false" />
+                <line number="45" hits="16" branch="false" />
+                <line number="46" hits="16" branch="false" />
+                <line number="47" hits="16" branch="false" />
+              </lines>
+            </method>
+            <method name="CreateShortUrl_Return_Status_200" signature="()" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="53" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="56" hits="1" branch="false" />
+                <line number="57" hits="1" branch="false" />
+                <line number="58" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="CreateShortUrl_If_NoUrl_HasBeenEntered_Return_StatusCode_400" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="63" hits="2" branch="false" />
+                <line number="64" hits="2" branch="false" />
+                <line number="65" hits="2" branch="false" />
+                <line number="68" hits="2" branch="false" />
+                <line number="69" hits="2" branch="false" />
+                <line number="70" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="CreateShortUrl_If_InvalidUrl_HasBeenNotEntered_Return_StatusCode_400" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="75" hits="2" branch="false" />
+                <line number="76" hits="2" branch="false" />
+                <line number="77" hits="2" branch="false" />
+                <line number="80" hits="2" branch="false" />
+                <line number="81" hits="2" branch="false" />
+                <line number="82" hits="2" branch="false" />
+                <line number="83" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="GetResolvedUrl_Return_Status_200" signature="()" line-rate="0.6666666666666666" branch-rate="1" complexity="1">
+              <lines>
+                <line number="87" hits="1" branch="false" />
+                <line number="88" hits="1" branch="false" />
+                <line number="89" hits="1" branch="false" />
+                <line number="92" hits="1" branch="false" />
+                <line number="93" hits="0" branch="false" />
+                <line number="94" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetResolvedUrl_If_NoUrl_HasBeenEntered_Return_Status_400" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="99" hits="2" branch="false" />
+                <line number="100" hits="2" branch="false" />
+                <line number="101" hits="2" branch="false" />
+                <line number="104" hits="2" branch="false" />
+                <line number="105" hits="2" branch="false" />
+                <line number="106" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="GetResolvedUrl_If_InvalidUrl_HasBeenNotEntered_Return_StatusCode_400" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="111" hits="2" branch="false" />
+                <line number="112" hits="2" branch="false" />
+                <line number="113" hits="2" branch="false" />
+                <line number="116" hits="2" branch="false" />
+                <line number="117" hits="2" branch="false" />
+                <line number="118" hits="2" branch="false" />
+                <line number="119" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="GetResolvedUrl_If_ShortUrlIsValid_ButNoOriginalUrlFound_Return_StatusCode_404" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="123" hits="1" branch="false" />
+                <line number="124" hits="1" branch="false" />
+                <line number="125" hits="1" branch="false" />
+                <line number="126" hits="1" branch="false" />
+                <line number="129" hits="1" branch="false" />
+                <line number="130" hits="1" branch="false" />
+                <line number="131" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetForwardFullUrl_If_NoUrl_HasBeenEntered_Return_Status_400" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="136" hits="2" branch="false" />
+                <line number="137" hits="2" branch="false" />
+                <line number="138" hits="2" branch="false" />
+                <line number="141" hits="2" branch="false" />
+                <line number="142" hits="2" branch="false" />
+                <line number="143" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="GetForwardFullUrl_If_InvalidUrl_HasBeenNotEntered_Return_StatusCode_400" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="148" hits="2" branch="false" />
+                <line number="149" hits="2" branch="false" />
+                <line number="150" hits="2" branch="false" />
+                <line number="153" hits="2" branch="false" />
+                <line number="154" hits="2" branch="false" />
+                <line number="155" hits="2" branch="false" />
+                <line number="156" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="GetForwardFullUrl_Return_Status_200" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="160" hits="1" branch="false" />
+                <line number="161" hits="1" branch="false" />
+                <line number="162" hits="1" branch="false" />
+                <line number="163" hits="1" branch="false" />
+                <line number="164" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="165" hits="1" branch="false" />
+                <line number="166" hits="1" branch="false" />
+                <line number="167" hits="1" branch="false" />
+                <line number="169" hits="1" branch="false" />
+                <line number="170" hits="1" branch="false" />
+                <line number="171" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="37" hits="16" branch="false" />
+            <line number="38" hits="16" branch="false" />
+            <line number="39" hits="16" branch="true" condition-coverage="50% (1/2)" />
+            <line number="40" hits="16" branch="false" />
+            <line number="41" hits="16" branch="false" />
+            <line number="43" hits="16" branch="false" />
+            <line number="44" hits="16" branch="false" />
+            <line number="45" hits="16" branch="false" />
+            <line number="46" hits="16" branch="false" />
+            <line number="47" hits="16" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="53" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="56" hits="1" branch="false" />
+            <line number="57" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="63" hits="2" branch="false" />
+            <line number="64" hits="2" branch="false" />
+            <line number="65" hits="2" branch="false" />
+            <line number="68" hits="2" branch="false" />
+            <line number="69" hits="2" branch="false" />
+            <line number="70" hits="2" branch="false" />
+            <line number="75" hits="2" branch="false" />
+            <line number="76" hits="2" branch="false" />
+            <line number="77" hits="2" branch="false" />
+            <line number="80" hits="2" branch="false" />
+            <line number="81" hits="2" branch="false" />
+            <line number="82" hits="2" branch="false" />
+            <line number="83" hits="2" branch="false" />
+            <line number="87" hits="1" branch="false" />
+            <line number="88" hits="1" branch="false" />
+            <line number="89" hits="1" branch="false" />
+            <line number="92" hits="1" branch="false" />
+            <line number="93" hits="0" branch="false" />
+            <line number="94" hits="0" branch="false" />
+            <line number="99" hits="2" branch="false" />
+            <line number="100" hits="2" branch="false" />
+            <line number="101" hits="2" branch="false" />
+            <line number="104" hits="2" branch="false" />
+            <line number="105" hits="2" branch="false" />
+            <line number="106" hits="2" branch="false" />
+            <line number="111" hits="2" branch="false" />
+            <line number="112" hits="2" branch="false" />
+            <line number="113" hits="2" branch="false" />
+            <line number="116" hits="2" branch="false" />
+            <line number="117" hits="2" branch="false" />
+            <line number="118" hits="2" branch="false" />
+            <line number="119" hits="2" branch="false" />
+            <line number="123" hits="1" branch="false" />
+            <line number="124" hits="1" branch="false" />
+            <line number="125" hits="1" branch="false" />
+            <line number="126" hits="1" branch="false" />
+            <line number="129" hits="1" branch="false" />
+            <line number="130" hits="1" branch="false" />
+            <line number="131" hits="1" branch="false" />
+            <line number="136" hits="2" branch="false" />
+            <line number="137" hits="2" branch="false" />
+            <line number="138" hits="2" branch="false" />
+            <line number="141" hits="2" branch="false" />
+            <line number="142" hits="2" branch="false" />
+            <line number="143" hits="2" branch="false" />
+            <line number="148" hits="2" branch="false" />
+            <line number="149" hits="2" branch="false" />
+            <line number="150" hits="2" branch="false" />
+            <line number="153" hits="2" branch="false" />
+            <line number="154" hits="2" branch="false" />
+            <line number="155" hits="2" branch="false" />
+            <line number="156" hits="2" branch="false" />
+            <line number="160" hits="1" branch="false" />
+            <line number="161" hits="1" branch="false" />
+            <line number="162" hits="1" branch="false" />
+            <line number="163" hits="1" branch="false" />
+            <line number="164" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="165" hits="1" branch="false" />
+            <line number="166" hits="1" branch="false" />
+            <line number="167" hits="1" branch="false" />
+            <line number="169" hits="1" branch="false" />
+            <line number="170" hits="1" branch="false" />
+            <line number="171" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Kloudscript.Quiz.ZipCode.Cache" line-rate="0.6949152542372882" branch-rate="0.5909090909090909" complexity="29">
+      <classes>
+        <class name="Kloudscript.Quiz.ZipCode.Cache.Controllers.StateLookUpController" filename="C:\Users\shish\source\repos\Kloudscript.Quiz\Apis\Kloudscript.Quiz.ZipCode.Cache\Controllers\StateLookUpController.cs" line-rate="0.7777777777777778" branch-rate="0.75" complexity="9">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="4" branch="false" />
+                <line number="21" hits="4" branch="false" />
+                <line number="22" hits="4" branch="false" />
+                <line number="23" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="GetStateByZipCode" signature="()" line-rate="0.7142857142857143" branch-rate="0.75" complexity="8">
+              <lines>
+                <line number="31" hits="4" branch="false" />
+                <line number="32" hits="4" branch="true" condition-coverage="100% (2/2)" />
+                <line number="33" hits="2" branch="false" />
+                <line number="36" hits="2" branch="false" />
+                <line number="38" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="39" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="44" hits="1" branch="true" condition-coverage="50% (2/4)" />
+                <line number="45" hits="0" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="50" hits="0" branch="false" />
+                <line number="51" hits="0" branch="false" />
+                <line number="52" hits="0" branch="false" />
+                <line number="54" hits="4" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="4" branch="false" />
+            <line number="21" hits="4" branch="false" />
+            <line number="22" hits="4" branch="false" />
+            <line number="23" hits="4" branch="false" />
+            <line number="31" hits="4" branch="false" />
+            <line number="32" hits="4" branch="true" condition-coverage="100% (2/2)" />
+            <line number="33" hits="2" branch="false" />
+            <line number="36" hits="2" branch="false" />
+            <line number="38" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="39" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="44" hits="1" branch="true" condition-coverage="50% (2/4)" />
+            <line number="45" hits="0" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="50" hits="0" branch="false" />
+            <line number="51" hits="0" branch="false" />
+            <line number="52" hits="0" branch="false" />
+            <line number="54" hits="4" branch="false" />
+          </lines>
+        </class>
+        <class name="Kloudscript.Quiz.ZipCode.Cache.Services.USPSService" filename="C:\Users\shish\source\repos\Kloudscript.Quiz\Apis\Kloudscript.Quiz.ZipCode.Cache\Services\USPSService.cs" line-rate="0.6410256410256411" branch-rate="0.5" complexity="18">
+          <methods>
+            <method name="get_TestMode" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="36" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="set_TestMode" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetCityState" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetCityState" signature="(...)" line-rate="0.5555555555555556" branch-rate="0.5" complexity="14">
+              <lines>
+                <line number="60" hits="1" branch="false" />
+                <line number="62" hits="1" branch="false" />
+                <line number="64" hits="1" branch="true" condition-coverage="50% (2/4)" />
+                <line number="65" hits="0" branch="false" />
+                <line number="67" hits="1" branch="false" />
+                <line number="68" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="69" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="70" hits="1" branch="false" />
+                <line number="71" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="72" hits="0" branch="false" />
+                <line number="73" hits="0" branch="false" />
+                <line number="74" hits="0" branch="false" />
+                <line number="75" hits="0" branch="false" />
+                <line number="76" hits="0" branch="false" />
+                <line number="77" hits="0" branch="false" />
+                <line number="80" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="81" hits="1" branch="false" />
+                <line number="82" hits="1" branch="false" />
+                <line number="84" hits="2" branch="false" />
+                <line number="86" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="87" hits="1" branch="false" />
+                <line number="88" hits="0" branch="false" />
+                <line number="90" hits="0" branch="false" />
+                <line number="92" hits="0" branch="false" />
+                <line number="93" hits="0" branch="false" />
+                <line number="94" hits="0" branch="false" />
+                <line number="96" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="4" branch="false" />
+                <line number="22" hits="4" branch="false" />
+                <line number="23" hits="4" branch="false" />
+                <line number="24" hits="4" branch="false" />
+                <line number="25" hits="4" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="4" branch="false" />
+            <line number="22" hits="4" branch="false" />
+            <line number="23" hits="4" branch="false" />
+            <line number="24" hits="4" branch="false" />
+            <line number="25" hits="4" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
+            <line number="62" hits="1" branch="false" />
+            <line number="64" hits="1" branch="true" condition-coverage="50% (2/4)" />
+            <line number="65" hits="0" branch="false" />
+            <line number="67" hits="1" branch="false" />
+            <line number="68" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="69" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="70" hits="1" branch="false" />
+            <line number="71" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="72" hits="0" branch="false" />
+            <line number="73" hits="0" branch="false" />
+            <line number="74" hits="0" branch="false" />
+            <line number="75" hits="0" branch="false" />
+            <line number="76" hits="0" branch="false" />
+            <line number="77" hits="0" branch="false" />
+            <line number="80" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="81" hits="1" branch="false" />
+            <line number="82" hits="1" branch="false" />
+            <line number="84" hits="2" branch="false" />
+            <line number="86" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="87" hits="1" branch="false" />
+            <line number="88" hits="0" branch="false" />
+            <line number="90" hits="0" branch="false" />
+            <line number="92" hits="0" branch="false" />
+            <line number="93" hits="0" branch="false" />
+            <line number="94" hits="0" branch="false" />
+            <line number="96" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Kloudscript.Quiz.ZipCode.Cache.Utilities.Applicationsettings" filename="C:\Users\shish\source\repos\Kloudscript.Quiz\Apis\Kloudscript.Quiz.ZipCode.Cache\Utilities\ApplicationSettings.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_UserId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Url" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="2" branch="false" />
+            <line number="6" hits="2" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Kloudscript.Quiz.ZipCode.Cache.Test" line-rate="0.625" branch-rate="1" complexity="9">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="C:\Users\shish\.nuget\packages\microsoft.net.test.sdk\17.1.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Kloudscript.Quiz.ZipCode.Cache.Test.StateLookUpControllerTestData" filename="C:\Users\shish\source\repos\Kloudscript.Quiz\Tests\Kloudscript.Quiz.ZipCode.Cache.Test\StateLookUpControllerTestData.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="GetCachedStatesByZipCode" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="0" branch="false" />
+                <line number="9" hits="0" branch="false" />
+                <line number="10" hits="0" branch="false" />
+                <line number="11" hits="0" branch="false" />
+                <line number="12" hits="0" branch="false" />
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="0" branch="false" />
+            <line number="9" hits="0" branch="false" />
+            <line number="10" hits="0" branch="false" />
+            <line number="11" hits="0" branch="false" />
+            <line number="12" hits="0" branch="false" />
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Kloudscript.Quiz.ZipCode.Cache.Test.StateLookUpTests" filename="C:\Users\shish\source\repos\Kloudscript.Quiz\Tests\Kloudscript.Quiz.ZipCode.Cache.Test\UnitTestStateLookUp.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="4" branch="false" />
+                <line number="25" hits="4" branch="false" />
+                <line number="26" hits="4" branch="false" />
+                <line number="27" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="GetStateByZipCode_Return_StatusCode_200" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetStateByZipCode_Return_StatusCode_400" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="44" hits="2" branch="false" />
+                <line number="45" hits="2" branch="false" />
+                <line number="46" hits="2" branch="false" />
+                <line number="48" hits="2" branch="false" />
+                <line number="49" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="InValid_ZipCode_Return_StatusCode_400" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="53" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+                <line number="60" hits="1" branch="false" />
+                <line number="61" hits="1" branch="false" />
+                <line number="62" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="24" hits="4" branch="false" />
+            <line number="25" hits="4" branch="false" />
+            <line number="26" hits="4" branch="false" />
+            <line number="27" hits="4" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="44" hits="2" branch="false" />
+            <line number="45" hits="2" branch="false" />
+            <line number="46" hits="2" branch="false" />
+            <line number="48" hits="2" branch="false" />
+            <line number="49" hits="2" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
+            <line number="61" hits="1" branch="false" />
+            <line number="62" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Kloudscript.Quiz.ZipCode.Cache.Test.StateResponse" filename="C:\Users\shish\source\repos\Kloudscript.Quiz\Tests\Kloudscript.Quiz.ZipCode.Cache.Test\StateLookUpControllerTestData.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_ZipCode" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_State" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="24" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

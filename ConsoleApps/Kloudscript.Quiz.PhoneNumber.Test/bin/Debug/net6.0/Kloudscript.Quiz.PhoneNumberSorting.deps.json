@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Kloudscript.Quiz.PhoneNumberSorting/1.0.0": {
+        "runtime": {
+          "Kloudscript.Quiz.PhoneNumberSorting.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Kloudscript.Quiz.PhoneNumberSorting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

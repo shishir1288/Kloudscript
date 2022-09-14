@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroServices-Quiz", "MicroServices-Quiz", "{6B44121B-A2F0-4DFF-B253-936B7731567A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kloudscript.Quiz.Url.Shortening", "Apis\Kloudscript.Quiz.Url.Shortening\Kloudscript.Quiz.Url.Shortening.csproj", "{DA988834-A231-4FFA-B1DF-14E68DD66877}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kloudscript.Quiz.ZipCode.Cache", "Apis\Kloudscript.Quiz.ZipCode.Cache\Kloudscript.Quiz.ZipCode.Cache.csproj", "{B177E4F7-C934-44B0-B2EF-479F6FE9BCA5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kloudscript.Quiz.Cache.Capability", "Apis\Kloudscript.Quiz.Cache.Capability\Kloudscript.Quiz.Cache.Capability.csproj", "{A7EA63FB-464B-4F53-BEF4-60D4CC2D8748}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithms", "Algorithms", "{7D110792-F3AF-4246-83B5-CA72416C1842}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E90BC2B7-74D9-412E-B0EC-D79DD4D6E3E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kloudscript.Quiz.Cache.Capability.Test", "Tests\Kloudscript.Quiz.Cache.Capability.Test\Kloudscript.Quiz.Cache.Capability.Test.csproj", "{E479530C-4599-4538-8E65-4AA5A7F561EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kloudscript.Quiz.ZipCode.Cache.Test", "Tests\Kloudscript.Quiz.ZipCode.Cache.Test\Kloudscript.Quiz.ZipCode.Cache.Test.csproj", "{643DFAB6-0012-4E36-9689-64F52F126B75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kloudscript.Quiz.Url.Shortening.Test", "Tests\Kloudscript.Quiz.Url.Shortening.Test\Kloudscript.Quiz.Url.Shortening.Test.csproj", "{27318297-E14E-492A-9960-69C97E7349FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apis", "Apis", "{714A586C-9672-461B-A9F7-03AF2AB4475F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kloudscript.Quiz.PhoneNumberSorting", "ConsoleApps\Kloudscript.Quiz.PhoneNumberSorting\Kloudscript.Quiz.PhoneNumberSorting.csproj", "{4F3293E4-1C8A-4BFC-94DA-4B50EDFCE09B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kloudscript.Quiz.PhoneNumber.Test", "ConsoleApps\Kloudscript.Quiz.PhoneNumber.Test\Kloudscript.Quiz.PhoneNumber.Test.csproj", "{1CD0AB5B-7FC0-41E9-A71D-E64AF0E57F3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{5ABEBBEE-1036-4EFB-A773-9BBBC0061C06}"
+	ProjectSection(SolutionItems) = preProject
+		docs\Benchmark and Test Evidences.docx = docs\Benchmark and Test Evidences.docx
+		docs\KloudscriptDB.sql = docs\KloudscriptDB.sql
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA988834-A231-4FFA-B1DF-14E68DD66877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA988834-A231-4FFA-B1DF-14E68DD66877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA988834-A231-4FFA-B1DF-14E68DD66877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA988834-A231-4FFA-B1DF-14E68DD66877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B177E4F7-C934-44B0-B2EF-479F6FE9BCA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B177E4F7-C934-44B0-B2EF-479F6FE9BCA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B177E4F7-C934-44B0-B2EF-479F6FE9BCA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B177E4F7-C934-44B0-B2EF-479F6FE9BCA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7EA63FB-464B-4F53-BEF4-60D4CC2D8748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7EA63FB-464B-4F53-BEF4-60D4CC2D8748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7EA63FB-464B-4F53-BEF4-60D4CC2D8748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7EA63FB-464B-4F53-BEF4-60D4CC2D8748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E479530C-4599-4538-8E65-4AA5A7F561EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E479530C-4599-4538-8E65-4AA5A7F561EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E479530C-4599-4538-8E65-4AA5A7F561EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E479530C-4599-4538-8E65-4AA5A7F561EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643DFAB6-0012-4E36-9689-64F52F126B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643DFAB6-0012-4E36-9689-64F52F126B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643DFAB6-0012-4E36-9689-64F52F126B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643DFAB6-0012-4E36-9689-64F52F126B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27318297-E14E-492A-9960-69C97E7349FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27318297-E14E-492A-9960-69C97E7349FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27318297-E14E-492A-9960-69C97E7349FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27318297-E14E-492A-9960-69C97E7349FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3293E4-1C8A-4BFC-94DA-4B50EDFCE09B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3293E4-1C8A-4BFC-94DA-4B50EDFCE09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3293E4-1C8A-4BFC-94DA-4B50EDFCE09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3293E4-1C8A-4BFC-94DA-4B50EDFCE09B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CD0AB5B-7FC0-41E9-A71D-E64AF0E57F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD0AB5B-7FC0-41E9-A71D-E64AF0E57F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD0AB5B-7FC0-41E9-A71D-E64AF0E57F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD0AB5B-7FC0-41E9-A71D-E64AF0E57F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA988834-A231-4FFA-B1DF-14E68DD66877} = {714A586C-9672-461B-A9F7-03AF2AB4475F}
+		{B177E4F7-C934-44B0-B2EF-479F6FE9BCA5} = {714A586C-9672-461B-A9F7-03AF2AB4475F}
+		{A7EA63FB-464B-4F53-BEF4-60D4CC2D8748} = {714A586C-9672-461B-A9F7-03AF2AB4475F}
+		{E90BC2B7-74D9-412E-B0EC-D79DD4D6E3E2} = {6B44121B-A2F0-4DFF-B253-936B7731567A}
+		{E479530C-4599-4538-8E65-4AA5A7F561EA} = {E90BC2B7-74D9-412E-B0EC-D79DD4D6E3E2}
+		{643DFAB6-0012-4E36-9689-64F52F126B75} = {E90BC2B7-74D9-412E-B0EC-D79DD4D6E3E2}
+		{27318297-E14E-492A-9960-69C97E7349FE} = {E90BC2B7-74D9-412E-B0EC-D79DD4D6E3E2}
+		{714A586C-9672-461B-A9F7-03AF2AB4475F} = {6B44121B-A2F0-4DFF-B253-936B7731567A}
+		{4F3293E4-1C8A-4BFC-94DA-4B50EDFCE09B} = {7D110792-F3AF-4246-83B5-CA72416C1842}
+		{1CD0AB5B-7FC0-41E9-A71D-E64AF0E57F3E} = {7D110792-F3AF-4246-83B5-CA72416C1842}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D32D490-0BC4-49F6-B8DC-7B0F454587DC}
+	EndGlobalSection
+EndGlobal

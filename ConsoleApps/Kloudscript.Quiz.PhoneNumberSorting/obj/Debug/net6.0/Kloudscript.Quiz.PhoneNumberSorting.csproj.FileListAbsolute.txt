@@ -1,0 +1,15 @@
+C:\Users\shish\source\repos\Kloudscript.Quiz\ConsoleApps\Kloudscript.Quiz.PhoneNumberSorting\bin\Debug\net6.0\Kloudscript.Quiz.PhoneNumberSorting.exe
+C:\Users\shish\source\repos\Kloudscript.Quiz\ConsoleApps\Kloudscript.Quiz.PhoneNumberSorting\bin\Debug\net6.0\Kloudscript.Quiz.PhoneNumberSorting.deps.json
+C:\Users\shish\source\repos\Kloudscript.Quiz\ConsoleApps\Kloudscript.Quiz.PhoneNumberSorting\bin\Debug\net6.0\Kloudscript.Quiz.PhoneNumberSorting.runtimeconfig.json
+C:\Users\shish\source\repos\Kloudscript.Quiz\ConsoleApps\Kloudscript.Quiz.PhoneNumberSorting\bin\Debug\net6.0\Kloudscript.Quiz.PhoneNumberSorting.dll
+C:\Users\shish\source\repos\Kloudscript.Quiz\ConsoleApps\Kloudscript.Quiz.PhoneNumberSorting\bin\Debug\net6.0\Kloudscript.Quiz.PhoneNumberSorting.pdb
+C:\Users\shish\source\repos\Kloudscript.Quiz\ConsoleApps\Kloudscript.Quiz.PhoneNumberSorting\obj\Debug\net6.0\Kloudscript.Quiz.PhoneNumberSorting.csproj.AssemblyReference.cache
+C:\Users\shish\source\repos\Kloudscript.Quiz\ConsoleApps\Kloudscript.Quiz.PhoneNumberSorting\obj\Debug\net6.0\Kloudscript.Quiz.PhoneNumberSorting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shish\source\repos\Kloudscript.Quiz\ConsoleApps\Kloudscript.Quiz.PhoneNumberSorting\obj\Debug\net6.0\Kloudscript.Quiz.PhoneNumberSorting.AssemblyInfoInputs.cache
+C:\Users\shish\source\repos\Kloudscript.Quiz\ConsoleApps\Kloudscript.Quiz.PhoneNumberSorting\obj\Debug\net6.0\Kloudscript.Quiz.PhoneNumberSorting.AssemblyInfo.cs
+C:\Users\shish\source\repos\Kloudscript.Quiz\ConsoleApps\Kloudscript.Quiz.PhoneNumberSorting\obj\Debug\net6.0\Kloudscript.Quiz.PhoneNumberSorting.csproj.CoreCompileInputs.cache
+C:\Users\shish\source\repos\Kloudscript.Quiz\ConsoleApps\Kloudscript.Quiz.PhoneNumberSorting\obj\Debug\net6.0\Kloudscript.Quiz.PhoneNumberSorting.dll
+C:\Users\shish\source\repos\Kloudscript.Quiz\ConsoleApps\Kloudscript.Quiz.PhoneNumberSorting\obj\Debug\net6.0\refint\Kloudscript.Quiz.PhoneNumberSorting.dll
+C:\Users\shish\source\repos\Kloudscript.Quiz\ConsoleApps\Kloudscript.Quiz.PhoneNumberSorting\obj\Debug\net6.0\Kloudscript.Quiz.PhoneNumberSorting.pdb
+C:\Users\shish\source\repos\Kloudscript.Quiz\ConsoleApps\Kloudscript.Quiz.PhoneNumberSorting\obj\Debug\net6.0\Kloudscript.Quiz.PhoneNumberSorting.genruntimeconfig.cache
+C:\Users\shish\source\repos\Kloudscript.Quiz\ConsoleApps\Kloudscript.Quiz.PhoneNumberSorting\obj\Debug\net6.0\ref\Kloudscript.Quiz.PhoneNumberSorting.dll
